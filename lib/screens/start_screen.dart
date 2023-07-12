@@ -33,6 +33,10 @@ class StartScreen extends StatelessWidget {
                 const FlutterLogo(size: 90),
                 const SizedBox(height: 20),
                 ElevatedButton(
+                  const SizedBox(height: 20,),
+                   const Text('Welcome to',
+                     style: TextStyle(fontSize: 18,),
+                  ),
                   child: const Text(
                     'START',
                     style: TextStyle(color: Colors.white, fontSize: 16),
